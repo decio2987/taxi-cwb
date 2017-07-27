@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #6d6d6d;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: red;
+}
+#navbar1 ul li a{
+	width: 120px;
+	color: white;
+	text-align: center;
+}
+#navbar1 ul li {
+	background-color: #6d6d6d;
+	width: 140px;
+	height: 55px;
+}
+.menu{
+	background-color: #6d6d6d;
+	width: 100%;
+	height: 55px;
+}
+.menu a{
+	font-size: 20px;
+	color: #6d6d6d;
+	margin-left: 15px;
+    font-family: 'Open Sans', sans-serif; 
+}
+.menu ul li a{
+	width: 120px;
+	height: 50px;
+	text-align: center; 
+}
+
+.dropdown-menu{
+	background-color: red;
+	text-align: center;
+}
+.menu ul li a:hover{
+	width: 50px;
+	background-color: red;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+ }
+.navbar-default {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+}
+/*menu */
+
+}
+.inicio{
+	margin-top:-30px;
+}
+.opala img{
+	width: 100%;
+}
+.motor img{
+	width: 100%;
+	border-radius: 10px;
+}
+.motor1 img{
+	width: 35%;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+.logo img{
+	width: 100%;
+	height: 20%;
+}
+.topo{
+	background-image: url(imagens/logo22.jpg);
+	background-position: top;
+	background-size: 1200px;
+	height: 100px;		
+
+
+}
+body{
+	background-image: linear-gradient(to right, white,#c0d9d9, white);
+	background-repeat: no-repeat;
+} 	
+.inicio{
+	list-style: none;
+	font-size: 40px;
+}
+.inicio h4{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.inicio h2{
+	margin-top: 10px;
+	font:italic bold small-caps 30px cursive;
+	color: #666666;
+	text-align: left;
+	font-size: 40px;
+	margin-left: 15px;
+}
+.primeiro {
+	color:blue;
+}
+
+.menu2 a{
+	font-size: 17px;
+	color: #6d6d6d;
+	margin:auto;
+}
+
+
+.menu2 ul {
+    margin:auto;
+ 	background-color:#6d6d;
+    list-style:none;
+    width: 600px;
+    
+}
+.menu2 ul li {
+	display: inline;
+	background-color:#EDEDED;
+ }
+
+.menu2 ul li a {
+	padding: 3px 15px;
+   display: inline-block;
+	/* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+.menu2 ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+.motor img{
+	width: 35%;
+	float:left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	margin-right: 15px;
+}
+
+.rodape{
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-bottom: 30px;
+	}
+
+.rodape i{
+	font-size: 35px;
+	margin-top: 35px;
+	margin-left: 35px;
+	color: #8470FF;
+}
+.rodape {
+	background-image: url('imagens/logo22.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 1200px;
+	height: 120px;
+}
+.twiter i{
+		font-size: 35px;
+	margin-top: -35px;
+	margin-left: 75px;
+	color: #8470FF;
+
+}
+.foto img{
+	width: 100px;
+
+}
+.foto h5{
+	margin-left: 650px;
+	margin-top: 30px;
+}
+
+
+
+
+
+/*dispositivo movel*/
+
+@media screen and (max-width: 1000px){
+.menu{
+
+	
+
+}
+
+.inicio img{
+	width: 100%;
+}
+.inicio h4{
+	font-size:35px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.inicio h2{
+	font-size: 45px;
+	position: relative;
+}
+.menu a{
+	font-size: 30px;
+}
+.menu2 a{
+	font-size: 25px;
+}
+.conteudo img{
+	width: 100%;
+}
+.conteudo h3{
+	font-size: 45px;
+	text-align: center;
+}
+.conteudo h4{
+	font-size: 35px;
+	
+}
+.opala img{
+	width: 100%;
+}
+
+
+
+
+}
+@media screen and (max-width: 748px){
+.inicio img{
+	width: 100%;
+}
+.inicio h4{
+	font-size:35px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.inicio h2{
+	font-size: 45px;
+	position: relative;
+}
+.conteudo img{
+	width: 100%;
+}
+.conteudo h3{
+	font-size: 45px;
+	text-align: center;
+}
+.conteudo h4{
+	font-size: 35px;
+
+}
+.opala img{
+	width: 100%;
+}
+.menu a{
+	font-size: 30px;
+}
+}

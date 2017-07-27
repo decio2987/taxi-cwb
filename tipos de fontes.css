@@ -1,0 +1,27 @@
+h1{
+	font-family: cursive;
+}
+
+.a{
+	font-size: larger;
+	font-weight: bold;
+
+}
+.b{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+.c{
+	font-weight: 900;
+}
+.d{
+	font-variant: small-caps;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+
+}
+p{
+	font:italic bold small-caps 30px cursive;
+}
