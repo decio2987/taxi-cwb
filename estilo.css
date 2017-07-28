@@ -54,7 +54,7 @@
 
 }
 .inicio{
-	margin-top:-30px;
+	margin-top:30px;
 }
 .opala img{
 	width: 100%;
@@ -73,10 +73,12 @@
 	height: 20%;
 }
 .topo{
-	background-image: url(imagens/logo22.jpg);
-	background-position: top;
-	background-size: 1200px;
-	height: 100px;		
+	background-image: url(imagens/taxi.png);
+	background-repeat: no-repeat;
+	margin-bottom: -20px;
+	width: 100%;
+	height: 50%;	
+		
 
 
 }
@@ -91,7 +93,7 @@ body{
 .inicio h4{
 	
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-size: 25px;
 	margin-left: 15px;
 	margin-right: 15px;
 }
