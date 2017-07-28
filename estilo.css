@@ -6,7 +6,7 @@
 	background-color: #6d6d6d;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-	background-color: red;
+	background-color: #ff8c00;
 }
 #navbar1 ul li a{
 	width: 120px;
@@ -36,14 +36,14 @@
 }
 
 .dropdown-menu{
-	background-color: red;
+	background-color: #ff8c00;
 	text-align: center;
 }
 .menu ul li a:hover{
 	width: 50px;
-	background-color: red;
+	background-color: #ff8c00;
     color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
+    border-bottom:3px solid #ff8c00;
  }
 .navbar-default {
 	background-color: transparent;
@@ -83,7 +83,7 @@
 
 }
 body{
-	background-image: linear-gradient(to right, white,#c0d9d9, white);
+	background-image: linear-gradient(to left,white,#ff8c00,white);
 	background-repeat: no-repeat;
 } 	
 .inicio{
@@ -99,7 +99,7 @@ body{
 }
 .inicio h2{
 	margin-top: 10px;
-	font:italic bold small-caps 30px cursive;
+	font:italic bold small-caps 30px;
 	color: #666666;
 	text-align: left;
 	font-size: 40px;
@@ -115,7 +115,11 @@ body{
 	margin:auto;
 }
 
-
+.videos iframe{
+	width: 50%;
+	margin-left: 20px;
+	
+}
 .menu2 ul {
     margin:auto;
  	background-color:#6d6d;
