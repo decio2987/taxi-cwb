@@ -6,9 +6,14 @@ body{
 	background-image linear-gradient(to left,white,#ff8c00,white);
 	background-repeat: no-repeat;
 } 
-
-.row img{
+.opala img{
+    box-shadow: 0 25px 50px 10px;
+}
+.col-md-12 img{
+    margin-top: 15px;
 	width: 100%;
+    height: 25%;
+    box-shadow: 0 -5px 50px 10px;
 	
 }
 /*redes sociais*/
@@ -137,7 +142,7 @@ body{
 	margin-right: 15px;
 }
 .inicio h2{
-	margin-top: 10px;
+	margin-top: 30px;
 	font:italic bold small-caps 30px;
 	color: #666666;
 	text-align: left;
@@ -179,13 +184,11 @@ body{
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0 0 0 10px;
 }
-#meumenulado a:hover {
-    left: 0px;
-}	
+
  #meumenulado1 a{
 	display: block;
     position: fixed;
-    right: -50px;
+    right: -30px;
     transition: 0.3s;
     padding: 15px;
     width: 80px;
@@ -199,28 +202,37 @@ body{
     right: 0px;
 }
 .inicio h2{
-	margin-top: 10px;
+	margin-top: 40px;
 	margin-right: -43px;
 	margin-left: -43px;
 	font:italic bold small-caps 20px;
 	color: #666666;
-	text-align: left;
+	text-align: center;
 	font-size: 40px;
 	
 	box-shadow: 0px 10px 10px;
 }
 .inicio h4{
+    margin-top: 20px;
+
 	margin-right: -40px;
 	margin-left: -40px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	
+	text-align: center;
 }
-.row img{
+.col-md-12 img{
 	width: 100%;
-	height: 30%;
+	height: 55px;
+
+    box-shadow: 0 -5px 50px 10px;
+}
+.opala img{
+    width: 100%;
+    box-shadow: 0 25px 50px 10px;
 }
 .videos iframe{
+    margin-top: 10px;
 	width: 100%;
 	
 	
@@ -228,7 +240,7 @@ body{
 }
 @media (max-width: 865px){
 .inicio h2{
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-right: 10px;
 	margin-left: 10px;
 	font:italic bold small-caps 20px;
