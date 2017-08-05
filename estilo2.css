@@ -8,6 +8,7 @@ body{
 } 
 .opala img{
     box-shadow: 0 25px 50px 10px;
+    margin-bottom: 20px;
 }
 .col-md-12 img{
     margin-top: 15px;
