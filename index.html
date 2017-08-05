@@ -2,82 +2,53 @@
 <head>
 <meta http-equiv="content-type" charset="utf-8">
 <title>Taxi em Curitiba</title>
-<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="estilo2.css">
+<script src="https://use.fontawesome.com/d9e304e597.js"></script><!-- Esse link é pra puxar o font-awesome direto da internet -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  <!-- Esse link é pra puxar o bootstrap direto da internet -->
+
+<link rel="shortcut icon" type="image/x-icon" href="img/favi.ico"> <!-- imagem que vai na aba -->
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="estilo2.css">
 </head>
 <body>
-<div class="container">
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
-</div>
+<header>
 	<div class="container">
- 	  
-	</div>
-	<nav class="menu-responsivo">
-		<ul>
-      		<li><a href="">Home</a></li>
-      		<li><a href="fotos.html">galeria</a></li>
-      		<li><a href="motor.html">pontos</a></li>
-      		<li class="dropdown"><a href="#" class="dropdown-toogle" data-toggle="dropdown" role="button" aria-expanded="false">serviços<span class="caret"></span></a>
-            	<ul class="dropdown-menu" role="menu">
-               		<li><a href="luxo.html">vermelha</a></li>
-                	<li><a href="granluxo.html">sereia</a></li>
-               		<li><a href="opalass.html">capital</a></li>
-               		<li><a href="caravan.html">curitiba</a></li>
-                	<li><a href="comodoro.html">lig taxi</a></li>
-                 	<li><a href="diplomata.html">taxi 10</a></li>
-                 	<li><a href="collection.html">333 taxi</a></li>
-            	</ul>
-      		</li>
-		</ul>
-    </nav>
-
-	<header>
-	<div class="container">
-	<div id="main">
-  <h2>taxi new curitba</h2>
-  
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-	</div>
-
-	<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-    document.body.style.backgroundColor = "white";
-}
-</script>
+		<div class="menu">
+			<div id="mySidenav" class="sidenav">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<a href="#">home</a>
+  			<a href="#">galeria</a>
+ 			<a href="#">pontos</a>
+  			<a href="#">serviços</a>
+			</div>
+		</div>
+			
+		<div id="main">
+  		<h2>taxi news curitiba</h2>
+  			<span style="font-size:25px;cursor:pointer" onclick="openNav()">menu </span>
+		</div>
+		
 		<div class="container">
-			<div class="topo">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="imagens/logo.jpg">
 				</div>
+				</div>
+				<div id="meumenulado1" class="menulado">
+						<a href="taxi.html" id="home"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						<a href="#" id="galeria"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="#" id="pontos"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#" id="serviços"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+					</div>
 					<div id="meumenulado" class="menulado">
 						<a href="taxi.html" id="home"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 						<a href="#" id="galeria"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 						<a href="#" id="pontos"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 						<a href="#" id="serviços"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 					</div>
-
-		        		<div class="toggle">
-		        			<a href=""><i class="fa fa-bars" aria-hidden="true"></i></a>
-		        		</div>
-			        </nav>
-			      <!--/.nav-collapse -->
-							<div class="opala">
-								<img src="imagens/cobaltpraia1.jpg" class="img-responsive">
-								</div>
+					<div class="opala">
+						<img src="imagens/cobaltpraia1.jpg" class="img-responsive">
+					</div>
 			
 				
 		</div>
@@ -85,7 +56,7 @@ function closeNav() {
 <main>
  	<div class="container">
 
-			<div class="inicio">
+		<div class="inicio">
 				
 					<h2><i class="fafa-binoculars" aria-hidden="true"></i>Taxi em Curitiba</h2>
 						<h4>Os municípios brasileiros diversificam os serviços de táxi em modalidades, tais como táxi luxo, táxi especial, táxi comum, táxi comum-rádio, táxi-lotação e mototáxi, quase todos se utilizando de taxímetro.
@@ -105,28 +76,34 @@ function closeNav() {
 
 						Os pontos de táxi (endereços e relação ao lado) podem ser: semi privativo, livre, executivo e especial. Da frota total, 71,13% opera com serviço auxiliar de Rádio Táxi e também aplicativos.</h4>
 	        
-	        			<h2> Noticias</h2></div>
+	        			<h2> Noticias</h2>
 	        			<div class="videos">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/51rHL2pmpxk" frameborder="0" allowfullscreen></iframe></div>
 						<h2> Legalizado</h2>
 		</div>
-	</main>
+	</div>
+</main>
 <footer>
-	<div class="container">
-		
-				<div class="rodape">
-					<a href="http://facebook.com.br" title="abrir o facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
- 	 				<div class="twiter">
- 	 				<a href="http://twitter.com.br" title="abrir o twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>	
- 	 				</div>
- 	 			</div>
- 	</div>
+
  	
 </footer>
 	
-	
+<script>
+		function openNav() {
+    		document.getElementById("mySidenav").style.width = "200px";
+    		document.getElementById("main").style.marginLeft = "250px";
+    		document.body.style.backgroundColor = "rgba(215,129,45,0.9)";
+		}
+
+		function closeNav() {
+    		document.getElementById("mySidenav").style.width = "0";
+    		document.getElementById("main").style.marginLeft= "0";
+    		document.body.style.backgroundColor = "white";
+		}
+
+</script>	
 <script type="text/javascript" src="jquery.js"></script>	
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
-</html>3
+</html>
