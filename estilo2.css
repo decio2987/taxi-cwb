@@ -59,6 +59,7 @@ body{
 /*redes sociais*/
 /*menu principal*/
 #main h2{
+
 	font-size: 35px;
 	text-transform: uppercase;
 	font-style: italic;
@@ -67,7 +68,7 @@ body{
 }
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 10px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -93,13 +94,13 @@ body{
 
 .sidenav .closebtn {
     position: absolute;
-    top: 50px;
-    right: 35px;
-    font-size: 25px;
-    margin-left: 50px;
-    border-radius: 10px;
-    background: transparent;
-    box-shadow: 0px 0px 10px 3px;
+    margin-top: 10px;
+    right: 30px;
+    top: 20px;
+    font-size: 45px;
+   
+   
+    
 }
 
 #main {
@@ -170,13 +171,20 @@ body{
 #meumenulado1 i{
     margin-left: -3px;
 }
+#main h2{
+    margin-left: -120px;
+}
 #main button{
     position: fixed;
     background-color: #d6d6d6;
  margin-left: -120px;
 }
+.sidenav .closebtn{
+    font-size: 65px;
+}
 .sidenav a{
     font-size: 50pt;
+    margin-left: -20px;
 }
  #meumenulado1 a{
 	display: block;
